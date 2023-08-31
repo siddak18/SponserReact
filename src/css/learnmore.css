@@ -1,0 +1,109 @@
+.learn-more{
+    display: flex;
+    justify-content: space-between;
+}
+
+.heading5{
+    margin-left: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-weight: 900;
+    padding-bottom: 10px;
+    font-family: 'Poppins';
+    font-size: 1.4rem;
+}
+
+.heading7{
+    color: #fcfcfc;
+    font-weight: bold;
+    font-size: 2.5rem;
+    font-family: 'Poppins';
+}
+
+.toggel{
+    padding-top: 80px;
+background: #000;
+width: 100vw;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding-bottom: 80px;
+transition: 2s;
+}
+
+.types{
+    display: flex;
+    gap: 40px;
+    margin-top: 50px;
+}
+
+.points>ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.points{
+    padding-left: 80px;
+    padding-right: 80px;
+    margin-top: 80px;
+}
+
+.points>ul>li{
+    color: white;
+    list-style: none;
+    font-size: 1.2rem;
+    font-weight: 100;
+    display: flex;
+    letter-spacing: .22px;
+    line-height: normal;
+    gap: 10px;
+}
+
+.points>ul>li>svg{
+    transform: translateY(7px);
+}
+
+.self,.ecell{
+    display: flex;
+    gap: 10px;
+    color: white;
+    font-family: 'Poppins';
+    font-size: 1.2rem;
+    font-weight: 700;
+    align-items: center;
+}
+
+.graph{
+    display: flex;
+    justify-content: center;
+}
+.graphh{
+    margin-top: 50px;
+    width: 80%;
+    align-self: center;
+}
+
+.remove{
+    display: none;
+}
+
+@media (max-width:800px) {
+    .points{
+        margin-top: 30px;
+        padding: 30px 10px 0 10px;
+    }
+    .types{
+        gap: 10px;
+    }
+    .heading5{
+        margin-left: 11%;
+    }
+}
+
+@media (max-width:500px) {
+    .heading5{
+        margin-left: 6%;
+    }
+}

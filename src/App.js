@@ -1,23 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
+import Contactus from './components/Contactus';
+import Form1 from './components/Form1';
+import Home from './components/Home';
+import Learnmore from './components/Learnmore';
+import Past from './components/Past';
+import Prop from './components/Prop';
+import Sliderr from './components/Slider';
+import Whyus from './components/Whyus';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Home></Home>
+      <Whyus></Whyus>
+      <Sliderr></Sliderr>
+      <Past></Past>
+      <Learnmore></Learnmore>
+      <Prop></Prop>
+      <Form1></Form1>
+      <Contactus></Contactus>
     </div>
   );
 }

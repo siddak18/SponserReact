@@ -1,0 +1,64 @@
+.slide-items {
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 80px;
+    padding-right: 80px;
+    align-items: center;
+}
+
+body::-webkit-scrollbar{
+    width: 0.1px;
+}
+
+.prob-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.aws{
+    margin-top: 30px;
+}
+.heading10{
+    margin-top: 10px;
+     color: #0C6EE7;
+     font-size: 1.3rem;
+     display: flex;
+     gap: 15px;
+     align-items: center;
+}
+
+.con{
+    margin-top: 30px;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.4vw;
+    word-spacing: 2px;
+}
+
+.info{
+    background-image:url("../Assets/Rectangle\ 167.png") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media (max-width:650px) {
+    .slide-items{
+        padding-left: 10px;
+        padding-right: 10px;
+        height: fit-content;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+}
+
+@media (max-width:500px) {
+    .con{
+        font-size: 1rem;
+    }
+}

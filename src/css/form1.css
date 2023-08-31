@@ -1,0 +1,92 @@
+.become{
+    background-image: url("../Assets/become\ our\ sponsor\ bg\ 1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding-top: 70px;
+    width: 100%;
+    padding-bottom: 70px;
+}
+
+.heading9{
+    font-size: 2.3rem;
+    letter-spacing: 0.5px;
+    text-align: center;
+    font-family: 'Poppins';
+    color: white;
+    font-weight: 900;
+}
+
+.form1{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 30px;
+}
+
+.form1>div{
+    width: 70%;
+    display: flex;
+    gap: 20px;
+}
+
+.form1>div>input{
+    width: 50%;
+    height: 50px;
+    border-radius:15px;
+    outline: none;
+    padding-left: 30px;
+    border: none;
+    font-size: 1rem;
+    font-family: 'Poppins';
+}
+
+.form1>textarea{
+    resize: none;
+    width: 70%;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    font-family: 'Poppins';
+    font-size: 1rem;
+    padding: 20px 0 0 20px;
+}
+
+.form1>button{
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    background-color:transparent;
+    color: white;
+    border: 1.2px solid white;
+    letter-spacing: 0.3px;
+    font-size: 1.1rem;
+    font-weight:lighter;
+    font-family: 'Poppins';
+}
+
+.form1>div>input::placeholder{
+ color: #989898;;
+}
+
+@media (max-width:900px){
+    .row{
+        flex-direction: column;
+    }
+    .form1>div>input{
+        width: 100%;
+    }
+    .fomr1>div{
+        flex-direction: column;
+        gap: 30px;
+    }
+}
+
+@media (max-width:500px) {
+    .form1>textarea{
+        height: 130px;
+    }
+}
